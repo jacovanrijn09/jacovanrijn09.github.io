@@ -1,0 +1,71 @@
+body {
+    background-color: #1e1e1e;
+}
+
+h1 {
+    color: #ffff;
+}
+
+h2 {
+    color: #ffff;
+}
+
+h3 {
+    color: #ffff;
+}
+
+h4 {
+    color: #ffff;
+}
+
+h5 {
+    color: #ffff;
+}
+
+p {
+    color: #ffff;
+}
+
+.hlijst {
+    
+    li {
+        color: #ffff;
+    }
+}
+
+/* HIERONDER ALLES VOOR DE NAV BAR */
+
+.active {
+    background-color: brown;
+}
+
+.nbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: linear-gradient(to right, #200a5e, #feb47b); /* Gradient colors */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nbar li {
+    float: left;
+}
+
+.nbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nbar li a:hover {
+    background-color: #111;
+}
+
+body {
+    margin-top: 50px; /* Adjust this value if needed */
+}
